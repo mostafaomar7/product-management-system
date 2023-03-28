@@ -20,35 +20,5 @@ table{
     font-size: 11px;
 }
 }
-/* @media(max-width:550px){
-    .display .mx-auto{
-    background-color: red;
-    margin-right: 0px!important;
-    margin-left: 30px!important;
-}
-table{
-    font-size: 12px;
-}
-}
-@media(max-width:450px){
-    .display .mx-auto{
-    background-color: red;
-    margin-right: 0px!important;
-    margin-left: 30px!important;
-}
-table{
-    font-size: 10px;
-}
-}
-@media(max-width:400px){
-    .display .mx-auto{
-    background-color: red;
-    margin-right: 0px!important;
-    margin-left: 0px!important;
-}
-table{
-    font-size: 10px;
-    width: 50%;
-}
-} */
+
 
