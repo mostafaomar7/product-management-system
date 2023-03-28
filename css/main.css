@@ -1,0 +1,54 @@
+table{
+    background-color: #212529;
+    width: 100%;
+}
+tbody, td, tfoot, th, thead{
+    border-color: #212529;
+    border-style: solid;
+    border-width: 4px;
+}
+tr{
+    border-bottom: 1px solid blue!important;
+}
+@media(max-width:500px){
+    .display .w-75{
+    width: 100%!important;
+}
+}
+@media(max-width:450px){
+table{
+    font-size: 11px;
+}
+}
+/* @media(max-width:550px){
+    .display .mx-auto{
+    background-color: red;
+    margin-right: 0px!important;
+    margin-left: 30px!important;
+}
+table{
+    font-size: 12px;
+}
+}
+@media(max-width:450px){
+    .display .mx-auto{
+    background-color: red;
+    margin-right: 0px!important;
+    margin-left: 30px!important;
+}
+table{
+    font-size: 10px;
+}
+}
+@media(max-width:400px){
+    .display .mx-auto{
+    background-color: red;
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+table{
+    font-size: 10px;
+    width: 50%;
+}
+} */
+
