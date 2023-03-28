@@ -17,7 +17,7 @@ function addProduct(){
     container.push(product);
     localStorage.setItem('products',JSON.stringify(container));
     display()
-    // clear();
+    clear();
 }
 function clear(){
     ProductName.value="";
