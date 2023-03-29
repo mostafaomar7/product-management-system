@@ -1,14 +1,16 @@
+body{
+    background-color: #222;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 table{
-    background-color: #212529;
+    background-color: #222;
     width: 100%;
 }
 tbody, td, tfoot, th, thead{
     border-color: #212529;
     border-style: solid;
     border-width: 4px;
-}
-tr{
-    border-bottom: 1px solid blue!important;
+    border-color:#222;
 }
 @media(max-width:500px){
     .display .w-75{

@@ -10,31 +10,35 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body class="bg-black text-white">
+<body class="text-white">
     <div class="w-75 mx-auto py-5">
 
-        <h2 class="fs-3 fw-bolder text-center">Product Management System</h2>
-        <div class="input mb-3">
+        <h2 class="fs-3 fw-bolder text-center text-info">Product Management System</h2>
+        <div class="input mb-1">
             <label for="ProductNameInput">Product Name</label>
-            <input type="text" class="form-control" id="ProductNameInput">
+            <input type="text" class="form-control bg-black border-black text-white fw-bold" id="ProductNameInput">
         </div>
-        <div class="input mb-3">
+        <div class="input mb-1">
             <label for="ProductPriceInput">Product Price</label>
-            <input type="number" class="form-control" id="ProductPriceInput">
+            <input type="number" class="form-control bg-black border-black text-white fw-bold" id="ProductPriceInput">
         </div>
-        <div class="input mb-3">
+        <div class="input mb-1">
             <label for="ProductCategoryInput">Product Category</label>
-            <input type="text" class="form-control" id="ProductCategoryInput">
+            <input type="text" class="form-control bg-black border-black text-white fw-bold" id="ProductCategoryInput">
         </div>
-        <div class="input mb-3">
+        <div class="input mb-1">
             <label for="ProductDescerptionInput">Product Descerption</label>
-            <textarea type="text" class="form-control" id="ProductDescerptionInput"></textarea>
+            <textarea type="text" class="form-control bg-black border-black text-white fw-bold" id="ProductDescerptionInput"></textarea>
         </div>
-        <button onclick="addProduct()" class="btn btn-info">Add Product</button>
+        <button id="addbtn" onclick="addProduct()" class="btn btn-info w-100 my-2 fw-bold">Add Product</button>
     </div>
     <div class="display">
         <div class="w-75 mx-auto py-5">
-            <input oninput="search(this.value)" type="text" placeholder="search" class="form-control w-75 mx-auto mb-3">
+            <input oninput="search(this.value)" type="text" placeholder="search" class="form-control w-100 mx-auto mb-3">
+            <div class="row mb-2">
+                <div class="col-md-6"><button  class="btn btn-info fw-bold w-100">Search By Product</button></div>
+                <div class="col-md-6"><button class="btn btn-info fw-bold w-100">Search By Price</button></div>
+            </div>
             <table class="text-center">
                 <thead>
                     <th>ID</th>
@@ -43,6 +47,7 @@
                     <th>Product Category</th>
                     <th>Product Descerption</th>
                     <th>Delete</th>
+                    <th>Update</th>
                 </thead>
                 <tbody id="tablebody">
 
